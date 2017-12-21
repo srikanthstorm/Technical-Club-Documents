@@ -1,18 +1,14 @@
 {
-  "name": "StudentCRUDApp",
+  "name": "webhook-echo-sample",
   "version": "1.0.0",
-  "description": "Express CRUD application on StudentDetails",
-  "main": "app.js",
+  "description": "Webhook echo sample",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js"
   },
+  "author": "Sunil Syal",
   "dependencies": {
     "body-parser": "^1.15.0",
-    "express": "^4.13.4",
-    "mongoose": "^4.4.11",
-    "request": "^2.83.0"
-  },
-  "author": "AP Cloud Team",
-  "license": "ISC"
+    "express": "^4.13.4"
+  }
 }
